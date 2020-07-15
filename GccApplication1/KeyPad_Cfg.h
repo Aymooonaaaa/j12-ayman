@@ -1,0 +1,29 @@
+﻿/*
+ * KeyPad_Cfg.h
+ *
+ * Created: 11/07/2020 04:31:34 م
+ *  Author: compu
+ */ 
+
+
+#ifndef KEYPAD_CFG_H_
+#define KEYPAD_CFG_H_
+
+
+#include "DIO.h"
+
+#define  KEYPAD_PORT     DIO_PORTD
+
+#define  KEYPAD_COLUM_0  DIO_PIN0
+#define  KEYPAD_COLUM_1  DIO_PIN1
+#define  KEYPAD_COLUM_2  DIO_PIN2
+#define  KEYPAD_COLUM_3  DIO_PIN3
+
+#define  KEYPAD_ROW_0    DIO_PIN4
+#define  KEYPAD_ROW_1    DIO_PIN5
+#define  KEYPAD_ROW_2    DIO_PIN6
+#define  KEYPAD_ROW_3    DIO_PIN7
+
+
+
+#endif /* KEYPAD_CFG_H_ */
